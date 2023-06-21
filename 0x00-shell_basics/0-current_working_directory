@@ -1,3 +1,5 @@
 #!/bin/bash
-pwd
+
+dir_path=$(pwd)
+echo "$dir_path"
 
