@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al "$(pwd)" "$(dirname "$(pwd)")" /boot | awk '{print $0}'
+ls -al --group-directories-first "$(pwd)" "$(dirname "$(pwd)")" /boot
