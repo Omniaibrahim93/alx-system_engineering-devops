@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | sort -df | tr '\n' ','; echo
+(echo -n ./, ../,; printf '%s,' $(ls -ap1 | grep -v "/$"); echo)
