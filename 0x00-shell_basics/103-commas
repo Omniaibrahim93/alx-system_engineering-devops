@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo -n ./, ../,; printf '%s,' $(ls -ap1 | grep -v "/$"); echo)
+ls -amNp
