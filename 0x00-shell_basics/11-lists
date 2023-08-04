@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al --group-directories-first "$(pwd)" "$(dirname "$(pwd)")" /boot
+ls -al . .. /boot
